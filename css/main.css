@@ -1,0 +1,13 @@
+@charset "utf-8"
+
+/* CSS Document containing site-wide rules to be applied across all devices on all browsers */
+
+/* ------------------------------------------------------------
+    Global reset and base styles
+   ------------------------------------------------------------ */
+ 
+*, *::before, *::after {box-sizing: border-box; margin: 0; padding: 0;}
+ 
+html { scroll-behavior: smooth;}
+
+/* Style the body element of our webpages*/
