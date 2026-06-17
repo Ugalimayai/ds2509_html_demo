@@ -11,3 +11,85 @@
 html { scroll-behavior: smooth;}
 
 /* Style the body element of our webpages*/
+body
+{
+    margin: 0;
+    padding-top: 60px; /* space for fixed navigation bar. */
+    /*font-family: '';*/
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #fff;
+    background-image: url('../images/img_background1.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------------
+    Layout container div
+   ------------------------------------------------------------ */
+
+#container
+{
+    max-width: 1400px;
+    margin: 2% auto;
+    padding: 1rem;
+    background-color: rgba(15,39, 31, .65);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+
+/* mobile device override */
+@media(max-width: 767px)
+{
+    #container {width: 90%;}
+}
+
+/* tablet & upward device override */
+@media(min-width: 768px)
+{
+    #container {width: 90%;padding: 2%;}
+}
+
+/* ------------------------------------------------------------
+    Headings
+   ------------------------------------------------------------ */
+
+.page-heading
+{
+    /* TODO: Set the webfont to be used for our page headings*/
+    font-weight: 800;
+    font-size: 2.2rem;
+    text-align: center;
+    color:whitesmoke;
+    margin-bottom: .5rem;
+}
+
+/* optional underline */
+.page-heading-underline {border-bottom: 4px double #f00;}
+
+.section-heading
+{
+    /* TODO: Set the webfont to be used for our section headings*/
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f80;
+    margin: 2rem 0 1rem;
+}
+
+/* ------------------------------------------------------------
+    Style the page footer
+   ------------------------------------------------------------ */
+.page-footer
+{
+    text-align: center;
+    color: #f80;
+    /* TODO: Set the webfont to be used for our page footer*/
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
