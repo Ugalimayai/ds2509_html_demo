@@ -4,10 +4,26 @@
         <meta charset="UTF-8">
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+        <div id="container">
         <h1>HTML Formatting tags</h1>
+        <section class="social-section text-center mt-5" aria-labelledby="social-heading">
+            <h2 id="social-heading" class="section-heading">Follow us on Social Media</h2>
+            <ul class="social-icons">
+            <li><a href="https://www.linkedin.com/in/chris-ephraim-60497a408/" class="icon-link" target="_blank" aria-label="LinkedIn" rel="noopener noreferer"
+                 title="Follow us on LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com" class="icon-link" target="_blank" aria-label="YouTube" rel="noopener noreferer"
+                 title="Subscribe to our channel on YouTube"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/allmost_chris/" class="icon-link" target="_blank" aria-label="Instagram" rel="noopener noreferer" 
+                title="Follow us on Instagram"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://github.com/Ugalimayai" class="icon-link" target="_blank" aria-label="Github" rel="noopener noreferer"
+                 title="Follow us on Github"><i class="bi bi-github"></i></a></li>
+            <li><a href="https://www.facebook.com" class="icon-link" target="_blank" aria-label="Facebook" rel="noopener noreferer"
+                 title="Follow us on Facebook"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+        </section>
 
 <p>This page demonstrates the various HTML text formatting tags!</p>
 
@@ -50,7 +66,7 @@ printf("Hello World!");<br/>
 </code><br/>
 <p>The program outputs/displays...</p>
 <samp>Hello World!</samp> <br/>
-        <footer>
+        <footer class="page-footer">
             <br/>DS 2509 Copyright &copy; 2024 - 
             <span id="currYear">
                 <script defer>
@@ -59,6 +75,6 @@ printf("Hello World!");<br/>
                 </script>
             </span> 
         </footer>
-    
+        </div>
     </body>
 </html>
