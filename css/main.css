@@ -72,7 +72,7 @@ body
 
 .page-heading
 {
-    /* TODO: Set the webfont to be used for our page headings*/
+    font-family: 'aboretto';
     font-weight: 800;
     font-size: 2.2rem;
     text-align: center;
@@ -85,7 +85,7 @@ body
 
 .section-heading
 {
-    /* TODO: Set the webfont to be used for our section headings*/
+    font-family:'aboretto';
     font-weight: 800;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -101,7 +101,7 @@ body
 {
     text-align: center;
     color: #f80;
-    /* TODO: Set the webfont to be used for our page footer*/
+    font-family: 'limelightregular';
     margin: 1rem 0;
     font-size: 1.1rem;
 }
